@@ -5,7 +5,7 @@ namespace IoTCRUD.Repositories
 {
     public class DeviceRepository
     {
-        private static string connectionString = "HostName=ashrithhub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=q5vezRqSubOxhqmkU3jEkKyMPk4NpZRyIpZ97BDfBrc=";
+        private static string connectionString = "HostName=ashrithhub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=cWGDB6IDhvHehoLNWDB/hbOdC5WnvJUbnJh8XL8tr1c=";
         private static RegistryManager registryManager;
 
         public DeviceRepository()

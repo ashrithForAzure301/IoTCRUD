@@ -7,7 +7,7 @@ namespace IoTCRUD.Repositories
 {
     public class DeviceTwinRepository
     {
-        private static string connectionString = "HostName=ashrithhub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=q5vezRqSubOxhqmkU3jEkKyMPk4NpZRyIpZ97BDfBrc=";
+        private static string connectionString = "HostName=ashrithhub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=cWGDB6IDhvHehoLNWDB/hbOdC5WnvJUbnJh8XL8tr1c=";
 
         public static async Task<bool> IsDeviceAvailable(string deviceId)
         {
